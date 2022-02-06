@@ -1,0 +1,33 @@
+h2 {
+  margin: 0;
+}
+
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.title {
+  background-color: #ffffff;
+  color: #9d9d9d;
+}
+
+.statistics {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.statList {
+  display: flex;
+}
+
+.item {
+  flex-basis: calc(100% / 4);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
